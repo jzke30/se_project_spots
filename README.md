@@ -15,4 +15,4 @@ The project is a website made from the progresson i have made in coding. The web
 
 This website is deployed to Github pages.
 
-- Deployment link: 
+- Deployment link: https://jzke30.github.io/se_project_spots/
