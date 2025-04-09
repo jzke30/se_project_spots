@@ -2,7 +2,6 @@
   display: flex;
   padding-top: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-
 }
 
 .profile__name {
@@ -41,11 +40,13 @@ flex-direction: column;
 
 .profile__edit-button{
   color: #212121;
-  max-width: 107px;
+
   height: 16px;
   background-color: transparent;
   border: none;
   margin-top: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
 }
 
 .profile__add-button {
@@ -55,7 +56,10 @@ height: 52px;
 border-radius: 8px;
 border: none;
 background-color: #212121;
-position:absolute;
+margin-bottom: 10px;
+
+padding: 0;
+align-self: end;
 bottom:350px ;
 right: 10px;
 color: white;
@@ -68,6 +72,7 @@ color: white;
     align-items: center;
     text-align: center;
     padding-top: 20px;
+    justify-content: center;
   }
 
 .profile__avatar {
@@ -93,6 +98,7 @@ color: white;
 
 .profile__add-button{
   margin: 0;
+  width: 100%;
 
 }
 }

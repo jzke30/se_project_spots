@@ -7,14 +7,14 @@ border-radius: 8px;
 }
 
 .card__like-button{
-  background-image: url(../images/Heart.svg);
+  background-image: url("../images/Heart.svg");
   width: 24px;
   height: 24px;
 border:none;
 background-color: transparent;
 opacity: 40%;
-background-size: cover;
-
+background-size: contain;
+background-repeat: no-repeat;
 
 }
 
@@ -31,6 +31,7 @@ background-size: cover;
 
 @media  screen and (max-width: 627px) {
 .card__image {
-  height: 288px;
+height: 288px;
+  width: 100%;
 }
 }
